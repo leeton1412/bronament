@@ -1,3 +1,27 @@
+/*-------------------- Font selection --------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+
+/*-------------------- Generic Styling --------------------*/
 body{
-    background-color: red;
+    background-color: black;
+}
+
+/*-------------------- Count Down Styling  --------------------*/
+.bro-title{
+    font-family: 'Monoton', cursive;
+    color: #94929b;
+    margin-top: 50px;
+    font-size: 150px;
+}
+
+#time-left{
+    font-size: 150px;
+    padding-bottom: 50px;
+    color: #94929b;
+}
+
+#start-button{
+    
 }
