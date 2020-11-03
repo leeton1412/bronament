@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearInterval(timeLeft = 0)
             }
             timeLeftDisplay.innerHTML = timeLeft
+            new Audio('https://gofile.io/d/rJASwl').play()
             timeLeft -= 1
         }, 1000)
     }
