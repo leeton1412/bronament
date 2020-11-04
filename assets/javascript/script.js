@@ -1,3 +1,4 @@
+//Count Down build ---------------
 document.addEventListener('DOMContentLoaded', () => {
 
     const timeLeftDisplay = document.querySelector('#time-left')
@@ -14,7 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const three = new Audio('assets/sounds/3.mp3')
         const two = new Audio('assets/sounds/2.mp3')
         const one = new Audio('assets/sounds/1.mp3')
-        
+        const zero = new Audio('assets/sounds/continue.wav')
+// Sounds for Count Down ---------------        
         setInterval(function(){
             if(timeLeft <= 0){
                 clearInterval(timeLeft = 0)
@@ -47,6 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 1:
                     one.play();
                     break;
+                
+
             }
             
 
@@ -56,5 +60,5 @@ document.addEventListener('DOMContentLoaded', () => {
     
     }
     countDown();
-    startBtn.addEventListener('click', countDown)
+    startBtn.addEventListener('click', zero.play())
 });

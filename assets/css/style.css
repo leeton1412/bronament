@@ -23,5 +23,7 @@ body{
 }
 
 #start-button{
-    
+    font-size: 50px;
+    border-color: #94929b;
+    background-color: #94929b;
 }
