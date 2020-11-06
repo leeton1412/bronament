@@ -6,6 +6,8 @@
 /*-------------------- Generic Styling --------------------*/
 body{
     background-color: black;
+    text-align: center;
+    color: #94929b;
 }
 
 .hero-heading{
@@ -15,10 +17,25 @@ body{
     font-size: 50px;
 }
 
+h2, h3{
+    text-align: center;
+    color: #94929b;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .intro-text{
     color:#94929b;
     text-align: center; 
+    padding-bottom: 25px;
 }
+
+.introduction{
+    font-family: 'Monoton', cursive;
+    word-spacing: 1em;
+}
+
+
 
 /*-------------------- Count Down Styling  --------------------*/
 .bro-title{
@@ -43,6 +60,7 @@ body{
 /*-------------------- Nav bar based on https://codepen.io/kesavaraj/pen/MWWPXLa --------------------*/
 .navbar {
   background-color:#333238;
+  
 }
 nav {
   height:130px;
