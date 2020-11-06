@@ -8,6 +8,18 @@ body{
     background-color: black;
 }
 
+.hero-heading{
+    font-family: 'Monoton', cursive;
+    padding-top: 50px;
+    color: #94929b;
+    font-size: 50px;
+}
+
+.intro-text{
+    color:#94929b;
+    text-align: center; 
+}
+
 /*-------------------- Count Down Styling  --------------------*/
 .bro-title{
     font-family: 'Monoton', cursive;
@@ -71,6 +83,8 @@ nav {
   border-top:5px solid #aba599;
   border-left:5px solid #aba599;
 }
+
+
 
 /*-------------------- Footer Styling --------------------*/
 
