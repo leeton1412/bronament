@@ -102,6 +102,13 @@ nav {
   border-left:5px solid #aba599;
 }
 
+/*-------------------- Tournament Styling --------------------*/
+
+.player-input{
+    width: 15%;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
 
 
 /*-------------------- Footer Styling --------------------*/
