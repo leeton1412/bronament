@@ -1,7 +1,12 @@
-//Start with a onclick event to get the value of players
-
-function playerAmount(){
-    var players = prompt("Amount of players? (2, 4 or 8");
-        console.log(players);
-
-}
+ //First we hid the tables
+ $("#hiddenBracket").children('div').hide();
+//Then we create a onclick event to create the right amount of fields
+$( ".two-players" ).click(function() {
+    $(".bracket-2").show();
+});
+$( ".four-players" ).click(function() {
+    $(".bracket-2, .bracket-4").show();
+});
+$( ".eight-players" ).click(function() {
+    $(".bracket-2, .bracket-4, .bracket-8").show();
+});
