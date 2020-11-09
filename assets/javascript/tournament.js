@@ -2,11 +2,16 @@
  $("#hiddenBracket").children('div').hide();
 //Then we create a onclick event to create the right amount of fields
 $( ".two-players" ).click(function() {
-    $(".bracket-2").show();
+    $("#hiddenBracket").children('div').hide();
+    $(".bracket-2").show("slow");
 });
 $( ".four-players" ).click(function() {
-    $(".bracket-2, .bracket-4").show();
+    $("#hiddenBracket").children('div').hide();
+    $(".bracket-2, .bracket-4").show("slow");
+    
 });
 $( ".eight-players" ).click(function() {
-    $(".bracket-2, .bracket-4, .bracket-8").show();
+    $("#hiddenBracket").children('div').hide();
+    $(".bracket-2, bracket-4").hide();
+    $(".bracket-2, .bracket-4, .bracket-8").show("slow");
 });
