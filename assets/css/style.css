@@ -106,10 +106,13 @@ nav {
 
 .player-input{
     width: 15%;
-    margin-top: 25px;
-    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.bracket-2, .bracket-4, .bracker-8{
+    margin-top: 50px
+}
 
 /*-------------------- Footer Styling --------------------*/
 
