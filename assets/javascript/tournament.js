@@ -23,11 +23,21 @@ $( ".eight-players" ).click(function() {
 //});
 function tournamentMove1(){
     var playersName = document.getElementById("player-1").value
-    document.getElementById("win-2").value = playersName;
+    document.getElementById("win-1").value = playersName;
     console.log(playersName)
 }
 function tournamentMove2(){
     var playersName = document.getElementById("player-2").value
+    document.getElementById("win-1").value = playersName;
+    console.log(playersName)
+}
+function tournamentMove3(){
+    var playersName = document.getElementById("player-3").value
+    document.getElementById("win-2").value = playersName;
+    console.log(playersName)
+}
+function tournamentMove4(){
+    var playersName = document.getElementById("player-4").value
     document.getElementById("win-2").value = playersName;
     console.log(playersName)
 }
