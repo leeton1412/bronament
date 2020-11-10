@@ -17,10 +17,7 @@ $( ".eight-players" ).click(function() {
 });
 
 //We will now create a click function to move each name
-//$( "#p1").click(function(){
-  //  var value = $("#player-1").val();
-   // $("#win-2").html(value);
-//});
+
 function tournamentMove1(){
     var playersName = document.getElementById("player-1").value
     document.getElementById("win-1").value = playersName;
@@ -90,7 +87,7 @@ function tournamentMove10(){
     console.log(playersName)
 }
 
-function finalmove1(){
+function finalmove(){
     var playersName = document.getElementById("final-1").value
     document.getElementById("ultimate-champion").value = playersName;
     console.log(playersName)
