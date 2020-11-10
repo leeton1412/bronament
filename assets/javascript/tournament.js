@@ -15,3 +15,8 @@ $( ".eight-players" ).click(function() {
     $(".bracket-2, bracket-4").hide();
     $(".bracket-2, .bracket-4, .bracket-8").show("slow");
 });
+
+//We will now create a click function to move each name
+$( "#p1").click(function(){
+    $("#round-2").val("Hello");
+});
