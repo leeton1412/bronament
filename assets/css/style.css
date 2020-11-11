@@ -108,10 +108,27 @@ nav {
     width: 15%;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #333238;
 }
 
 .bracket-2, .bracket-4, .bracker-8{
     margin-top: 50px
+}
+
+.line-1{
+    
+    color: #aba599;
+    background-color:#aba599; 
+    border-width: 0;
+    height: 2px;
+    width: 50%;
+}
+
+.Btn-tournament{
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    height: calc(1.5em + 0.75rem + 2px);
 }
 
 /*-------------------- Footer Styling --------------------*/
