@@ -48,12 +48,14 @@
 
 <div class="container">
    <p class="tournament-intro"> Please select the amount of players by pressing the button bellow</p>
+   <p class="tournament-intro rotate-center"> For small devices please <i class="fas fa-sync-alt"></i> your device! </p>
+
 </div>
 <div class="container">
     <div class="row"></div>
-        <input class="btn btn-primary two-players" type="button" value="2 Players" >
-        <input class="btn btn-primary four-players" type="button" value="4 Players">
-        <input class="btn btn-primary eight-players" type="button" value="8 Players">
+        <input class="btn btn-primary two-players btn-select-2" type="button" value="2 Players" >
+        <input class="btn btn-primary four-players btn-select-4" type="button" value="4 Players">
+        <input class="btn btn-primary eight-players btn-select-8" type="button" value="8 Players">
      </div>   
 
 <!-- Tournament set up-->
@@ -61,16 +63,16 @@
 <div class="container-fluid brackets" id="hiddenBracket">
     <div class="container-fluid bracket-2">
         <div class="row">
-<input class="form-control player-input" id="player-1" type="text" placeholder="Player Name"> <button class="Btn-tournament" id="p1" onclick="tournamentMove1()"><i class="fas fa-trophy"></i></button>
+<input class="form-control player-input" id="player-1" type="text" placeholder="Player Name"> <button type="button" class="btn btn-light btn-tournament" id="p1" onclick="tournamentMove1()"><i class="fas fa-trophy"></i></button>
 
 <!-- Name input -->
         </div>
         <div class="row">
-<input class="form-control player-input offset-sm-3" id="win-1" type="text" placeholder="Player Name"><button onclick="tournamentMove12()">w</button>
+<input class="form-control player-input offset-sm-3" id="win-1" type="text" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove12()"><i class="fas fa-trophy"></i></button>
         </div>
         <div class="row">
 <!-- Name input -->
-<input class="form-control round-1 player-input" type="text" id="player-2" placeholder="Player Name"><button onclick="tournamentMove2()">w</button>
+<input class="form-control round-1 player-input" type="text" id="player-2" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove2()"><i class="fas fa-trophy"></i></button>
         </div>
         
     </div>
@@ -79,19 +81,19 @@
     
 <!-- Name input -->
     <div class="row">
-<input class="form-control player-input round-3 offset-sm-6" type="text" id="final-1" placeholder="Player Name"><button onclick="finalmove()">w</button>
+<input class="form-control player-input round-3 offset-sm-6" type="text" id="final-1" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="finalmove()"><i class="fas fa-trophy"></i></button>
     </div>
 <!-- Name input -->
     <div class="row">
-<input class="form-control round-1 player-input" id="player-3" type="text" placeholder="Player Name"><button onclick="tournamentMove3()">w</button>
+<input class="form-control round-1 player-input" id="player-3" type="text" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove3()"><i class="fas fa-trophy"></i></button>
     </div>
 <!-- Name input -->
     <div class="row">
-<input class="form-control player-input round-2 offset-sm-3" type="text" id="win-2" placeholder="Player Name"><button onclick="tournamentMove11()">w</button>
+<input class="form-control player-input round-2 offset-sm-3" type="text" id="win-2" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove11()"><i class="fas fa-trophy"></i></button>
     </div>
 <!-- Name input -->
     <div class="row">
-<input class="form-control round-1 player-input " type="text" id="player-4" placeholder="Player Name"><button onclick="tournamentMove4()">w</button>
+<input class="form-control round-1 player-input " type="text" id="player-4" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove4()"><i class="fas fa-trophy"></i></button>
     </div>
     </div>  
 <!-- Name input -->
@@ -101,31 +103,31 @@
         </div>
 <!-- Name input -->
         <div class="row">
-<input class="form-control round-1 player-input" id="player-5" type="text" placeholder="Player Name"><button onclick="tournamentMove5()">w</button>
+<input class="form-control round-1 player-input" id="player-5" type="text" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove5()"><i class="fas fa-trophy"></i></button>
         </div>
 <!-- Name input -->
         <div class="row">
-<input class="form-control player-input round-2 offset-sm-3" id="win-3" type="text" placeholder="Player Name"><button onclick="tournamentMove9()">w</button>
+<input class="form-control player-input round-2 offset-sm-3" id="win-3" type="text" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove9()"><i class="fas fa-trophy"></i></button>
         </div>
 <!-- Name input -->
     <div class="row">   
-<input class="form-control player-input round-3 offset-sm-6" type="text" id="final-2" placeholder="Player Name"><button onclick="finalmove2()">w</button>
+<input class="form-control player-input round-3 offset-sm-6" type="text" id="final-2" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="finalmove2()"><i class="fas fa-trophy"></i></button>
     </div>
 <!-- Name input -->
     <div class="row">
-<input class="form-control  round-1 player-input" id="player-6" type="text" placeholder="Player Name"><button onclick="tournamentMove6()">w</button>
+<input class="form-control  round-1 player-input" id="player-6" type="text" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove6()"><i class="fas fa-trophy"></i></button>
     </div>
 <!-- Name input -->
     <div class="row">
-<input class="form-control round-1 player-input" type="text" id="player-7" placeholder="Player Name"><button onclick="tournamentMove7()">w</button>
+<input class="form-control round-1 player-input" type="text" id="player-7" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove7()"><i class="fas fa-trophy"></i></button>
     </div>
 <!-- Name input -->
     <div class="row">
-<input class="form-control player-input round-2 offset-sm-3" type="text" id="win-4" placeholder="Player Name"><button onclick="tournamentMove10()">w</button>
+<input class="form-control player-input round-2 offset-sm-3" type="text" id="win-4" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove10()"><i class="fas fa-trophy"></i></button>
     </div>
 <!-- Name input -->
     <div class="row">
-<input class="form-control round-1 player-input" id="player-8" type="text" placeholder="Player Name"><button onclick="tournamentMove8()">w</button>
+<input class="form-control round-1 player-input" id="player-8" type="text" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove8()"><i class="fas fa-trophy"></i></button>
     </div>
     </div>
 </div>
