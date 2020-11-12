@@ -129,6 +129,18 @@ nav {
   border-top:5px solid #aba599;
   border-left:5px solid #aba599;
 }
+/*-------------------- Landing Styling -----------------------*/
+
+#street-fighter{
+    display:none;
+}
+#street-list:hover ~ #street-fighter{
+    display:block;
+}
+
+#street-fighter:hover{
+    display:block;
+}
 
 /*-------------------- Tournament Styling --------------------*/
 .tournament-intro{
