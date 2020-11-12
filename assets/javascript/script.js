@@ -2,7 +2,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const timeLeftDisplay = document.querySelector('#time-left')
-    const startBtn = document.querySelector('#start-button')
     let timeLeft = 10
 
     function countDown (){
@@ -49,7 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 1:
                     one.play();
                     break;
-                
+                case 0:
+                    window.location.replace("landing.html");
 
             }
             
@@ -60,5 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     }
     countDown();
-    startBtn.addEventListener('click', zero.play())
+   
 });
+
