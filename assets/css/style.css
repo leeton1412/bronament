@@ -329,10 +329,26 @@ h4{
     background-image: url("https://images.unsplash.com/photo-1519326844852-704caea5679e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1434&q=80");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    opacity: 0.7;
+    opacity: 0.9;
     align-content: center;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: none;
+}
+
+a:hover {
+  text-decoration: none;  
+  color: none;
+}
+
+a:active {
+  background-color: none;
+} 
 
 
 /*-------------------- Count Down Styling  --------------------*/
