@@ -341,18 +341,25 @@ h4{
     color: #94929b;
     margin-top: 50px;
     font-size: 150px;
+    background-color: transparent;
 }
 
 #time-left{
     font-size: 150px;
     padding-bottom: 50px;
     color: #94929b;
+    background-color: transparent;
 }
 
 #start-button{
     font-size: 50px;
-    border-color: #94929b;
-    background-color: #94929b;
+    color: #94929b;
+    background-color:transparent;
+    
+}
+
+.fa-fist-raised{
+    color: #94929b;
 }
 
 /*-------------------- Nav bar based on https://codepen.io/kesavaraj/pen/MWWPXLa --------------------*/
