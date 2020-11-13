@@ -296,7 +296,7 @@ body{
     font-family: 'Monoton', cursive;
     padding-top: 50px;
     color: #94929b;
-    font-size: 50px;
+    font-size: 40px;
     background-color: transparent;
     
 }
@@ -331,8 +331,7 @@ h4{
     background-repeat: no-repeat;
     opacity: 0.9;
     align-content: center;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    
 }
 
 a:link {
@@ -393,7 +392,6 @@ nav {
 }
 .nav-link {
   margin:10px 25px;
-  color:#aba69b;
   font-family: 'Monoton', cursive;
 }
 .nav-link:hover {
@@ -412,7 +410,7 @@ nav {
   border-radius:0px 40px 0px 0px;
   border-top:5px solid #aba599;
   border-right:5px solid #aba599;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 .box-2 {
   position:absolute;
@@ -424,6 +422,10 @@ nav {
   border-radius:40px 0px 0px 0px;
   border-top:5px solid #aba599;
   border-left:5px solid #aba599;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+        color: white;
 }
 /*-------------------- Landing Styling -----------------------*/
                 /*-- Hover -- */
@@ -515,6 +517,9 @@ nav {
     background-color: #aba599;
 }
 
+.bro-container{
+    padding-top: 20px;
+}
 /*-------------------- Footer Styling --------------------*/
 
 .social-button{
@@ -524,4 +529,12 @@ nav {
 .footer-copyright, a{
     text-decoration: none;
     color:#aba599;
+}
+
+/*--------------------- Media queries --------------------*/
+
+@media screen and (min-width: 360px) {
+  #sub-title {
+    margin-top: 50px;
+  }
 }
