@@ -65,5 +65,19 @@ xhr.send();
     else {
       sf.style.display = 'block';
     }
+    
   }
+
+
+document.getElementById("street-list").addEventListener("mouseout", mouseOut);
+document.getElementById("tekken-list").addEventListener("mouseout", mouseOut);
+document.getElementById("smash-list").addEventListener("mouseout", mouseOut);
+document.getElementById("mk-list").addEventListener("mouseout", mouseOut);
+
+function mouseOut(list){
+    document.getElementById("street-fighter").style.display = 'none';
+    document.getElementById("tekken").style.display = 'none';
+    document.getElementById("smash-bros").style.display = 'none';
+    document.getElementById("mk").style.display = 'none';
+}
 
