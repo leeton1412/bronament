@@ -356,6 +356,10 @@ dd{
     margin-top: 20px;
 }
 
+#background-remove{
+    background-color: transparent;
+}
+
 
 /*-------------------- Count Down Styling  --------------------*/
 .bro-title{
