@@ -351,6 +351,10 @@ a:active {
   background-color: none;
 } 
 
+dd{
+    margin-top: 20px;
+}
+
 
 /*-------------------- Count Down Styling  --------------------*/
 .bro-title{
@@ -432,34 +436,8 @@ nav {
 #street-fighter, #tekken, #smash-bros, #mk{
     display:none;
 }
-#street-list:hover ~ #street-fighter{
-    display:block;
-}
 
-#street-fighter:hover{
-    display:block;
-}
-#tekken-list:hover ~ #tekken{
-    display:block;
-}
 
-#tekken:hover{
-    display:block;
-}
-#smash-list:hover ~ #smash-bros{
-    display:block;
-}
-
-#smash-bros:hover{
-    display:block;
-}
-#mk-list:hover ~ #mk{
-    display:block;
-}
-
-#mk:hover{
-    display:block;
-}
 
             /*--  End Hover -- */
 

@@ -10,13 +10,60 @@ xhr.onload = function() {
     
     for (var i in data.query.pages) {
         console.log(data.query.pages[i].title);
+        
         document.getElementById('street-fighter').textContent = data.query.pages['19986238'].extract
         document.getElementById('smash-bros').textContent = data.query.pages['1577869'].extract
         document.getElementById('tekken').textContent = data.query.pages['43295977'].extract
         document.getElementById('mk').textContent = data.query.pages['40775102'].extract
 
     }
+            
+        
 }
 
 xhr.send();
+// Street fight button function
+  function dataFill() {
+    var sf = document.getElementById('street-fighter');
+    var displaySetting = sf.style.display;
+        if (displaySetting == 'block') {
+            sf.style.display = 'none';
+        }
+    else {
+      sf.style.display = 'block';
+    }
+  }
+// Tekken button function
+  function dataFill2() {
+    var sf = document.getElementById('tekken');
+    var displaySetting = sf.style.display;
+        if (displaySetting == 'block') {
+            sf.style.display = 'none';
+        }
+    else {
+      sf.style.display = 'block';
+    }
+  }
+// Smash Bros button function
+  function dataFill3() {
+    var sf = document.getElementById('smash-bros');
+    var displaySetting = sf.style.display;
+        if (displaySetting == 'block') {
+            sf.style.display = 'none';
+        }
+    else {
+      sf.style.display = 'block';
+    }
+  }
+// Mortal Kombat button function
+  function dataFill4() {
+    var sf = document.getElementById('mk');
+    var displaySetting = sf.style.display;
+        if (displaySetting == 'block') {
+            sf.style.display = 'none';
+        }
+    else {
+      sf.style.display = 'block';
+    }
+  }
 
