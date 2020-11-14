@@ -498,6 +498,14 @@ nav {
 .bro-container{
     padding-top: 20px;
 }
+
+#player-7{
+    margin-top: 45px;
+}
+
+.extra-margin{
+    margin-top: 45px;
+}
 /*-------------------- Footer Styling --------------------*/
 
 .social-button{
