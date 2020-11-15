@@ -1,134 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/cosmo/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_OwqvlEjmm8ba3XzaMNZac");
-   })();
-</script>
-<title>Contact</title>
-</head>
-<header>
-    
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="toggle-navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbar-content">
-        <ul class="navbar-nav nav-link-color">
-          <li class="nav-item nav-link-color">
-            <a class="nav-link" href="landing.html">Home</a>
-          </li>
-          <li class="nav-item nav-link-color">
-            <a class="nav-link" href="tournament.html">Tournament</a>
-          </li>
-          <li class="nav-item nav-link-color">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item nav-link-color">
-            <a class="nav-link" href="rules.html">Rules</a>
-          </li>
-          
-        </ul>
-      </div>
-    
-    </nav>
-    
-    
-    </header>
-<div class="container-fluid contact-heading">
-    <h1>Contact us</h1>
-<div class="container bg-light text-center form-container">
-            <div class="row">
-                <div class="col-lg-12 text-center form-intro-text">
-                    Please fill in this form and we will get back to you as soon as we can.
-                </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/cosmo/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+      <script type="text/javascript">
+         (function(){
+            emailjs.init("user_OwqvlEjmm8ba3XzaMNZac");
+         })();
+      </script>
+      <title>Contact</title>
+   </head>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="toggle-navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="navbar-nav nav-link-color">
+               <li class="nav-item nav-link-color">
+                  <a class="nav-link" href="landing.html">Home</a>
+               </li>
+               <li class="nav-item nav-link-color">
+                  <a class="nav-link" href="tournament.html">Tournament</a>
+               </li>
+               <li class="nav-item nav-link-color">
+                  <a class="nav-link" href="#">Contact</a>
+               </li>
+               <li class="nav-item nav-link-color">
+                  <a class="nav-link" href="rules.html">Rules</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+   <div class="container-fluid contact-heading">
+      <h1>Contact us</h1>
+      <div class="container bg-light text-center form-container">
+         <div class="row">
+            <div class="col-lg-12 text-center form-intro-text">
+               Please fill in this form and we will get back to you as soon as we can.
             </div>
-            <form class="form-horizontal text-center contact-us-form-color" onsubmit="return sendMail(this);">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="sr-only" for="inputfn">Name</label>
-                            <input type="text" name="name" class="form-control mt-4"  placeholder="Enter your Name" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="sr-only ml-5" for="inputemail">Email</label>
-                            <input type="email" name="emailaddress" class="form-control mt-4"  placeholder="Enter your Email" required>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="col-md-12 text-center">
-                        <div class="form-group">
-                            <label for="request-details">
-                                Enter your message here
-                            </label>
-                            <textarea class="form-control" name="suggestion" rows="12" required></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-group text-center">
-                            <button type="submit" class="btn cosmic-button hvr-buzz-out">Send it!</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-
-</div>
-    <!-- Footer based on MDB https://mdbootstrap.com/docs/jquery/navigation/footer/-->
-<div class="container footer-container">
-<footer class="page-footer font-small special-color-dark pt-4">
-
-  <!-- Footer Elements -->
-  
-
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-      <li class="list-inline-item social-button">
-        <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/leighton.griffith/" target="_blank">
-          <i class="fab fa-facebook-f"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item social-button">
-        <a class="btn-floating btn-tw mx-1" href="https://github.com/leeton1412" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li class="list-inline-item social-button">
-        <a class="btn-floating btn-li mx-1" href="www.linkedin.com/in/leighton-griffith-855254198" target="_blank">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-      </li>
-    </ul>
-    <!-- Social buttons -->
-    
-  
-  <!-- Footer Elements -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="landing.html"> BRO-NAMENT </a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
-</div>
-<!-- Footer -->
-<body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script src="assets/javascript/sendEmail.js"></script>
-</body>
+         </div>
+         <form class="form-horizontal text-center contact-us-form-color" onsubmit="return sendMail(this);">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="form-group">
+                     <label class="sr-only" for="inputfn">Name</label>
+                     <input type="text" name="name" class="form-control mt-4"  placeholder="Enter your Name" required>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="form-group">
+                     <label class="sr-only ml-5" for="inputemail">Email</label>
+                     <input type="email" name="emailaddress" class="form-control mt-4"  placeholder="Enter your Email" required>
+                  </div>
+               </div>
+               <br>
+               <div class="col-md-12 text-center">
+                  <div class="form-group">
+                     <label for="request-details">
+                     Enter your message here
+                     </label>
+                     <textarea class="form-control" name="suggestion" rows="12" required></textarea>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <div class="form-group text-center">
+                     <button type="submit" class="btn cosmic-button hvr-buzz-out">Send it!</button>
+                  </div>
+               </div>
+            </div>
+         </form>
+      </div>
+   </div>
+   <!-- Footer based on MDB https://mdbootstrap.com/docs/jquery/navigation/footer/-->
+   <div class="container footer-container">
+      <footer class="page-footer font-small special-color-dark pt-4">
+         <!-- Footer Elements -->
+         <!-- Social buttons -->
+         <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item social-button">
+               <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/leighton.griffith/" target="_blank">
+               <i class="fab fa-facebook-f"> </i>
+               </a>
+            </li>
+            <li class="list-inline-item social-button">
+               <a class="btn-floating btn-tw mx-1" href="https://github.com/leeton1412" target="_blank">
+               <i class="fab fa-github"></i>
+               </a>
+            </li>
+            <li class="list-inline-item social-button">
+               <a class="btn-floating btn-li mx-1" href="www.linkedin.com/in/leighton-griffith-855254198" target="_blank">
+               <i class="fab fa-linkedin-in"> </i>
+               </a>
+            </li>
+         </ul>
+         <!-- Social buttons -->
+         <!-- Footer Elements -->
+         <!-- Copyright -->
+         <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="landing.html"> BRO-NAMENT </a>
+         </div>
+         <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+   </div>
+   <!-- Footer -->
+   <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <script src="assets/javascript/sendEmail.js"></script>
+   </body>
 </html>
