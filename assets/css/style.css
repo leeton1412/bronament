@@ -339,7 +339,8 @@ h4{
     background-repeat: no-repeat;
     opacity: 0.9;
     align-content: center;
-    margin-top: 130px;
+    padding-top: 40px;
+    padding-bottom: 30px
     
 }
 
@@ -359,10 +360,6 @@ a:hover {
 a:active {
   background-color: none;
 } 
-
-dd{
-    margin-top: 20px;
-}
 
 #background-remove{
     background-color: transparent;
