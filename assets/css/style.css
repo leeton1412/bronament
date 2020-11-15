@@ -367,7 +367,11 @@ dd{
 #background-remove{
     background-color: transparent;
 }
-
+.contact-heading, h1{
+    margin-top: 150px;
+    
+    background-color: black;
+}
 
 /*-------------------- Count Down Styling  --------------------*/
 .bro-title{
@@ -519,6 +523,10 @@ nav {
 .extra-margin{
     margin-top: 45px;
 }
+
+/*-------------------- contact-us-form-color -------------*/
+
+
 /*-------------------- Footer Styling --------------------*/
 
 .social-button{
