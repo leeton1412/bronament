@@ -11,6 +11,7 @@
    </head>
    <body>
       <header>
+    <!--Nav Bar based on codepen-->  
          <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="toggle-navigation">
@@ -27,18 +28,16 @@
                      <li class="nav-item nav-link-color">
                         <a class="nav-link" href="contact.html">Contact</a>
                      </li>
-                     <li class="nav-item nav-link-color">
-                        <a class="nav-link" href="rules.html">Rules</a>
-                     </li>
                   </ul>
                </div>
             </nav>
          </div>
+    <!-- /Nav bar-->
       </header>
       <section>
          <div class="container-fluid col-md-12 introduction">
             <h1 class="hero-heading text-flicker-in-glow"> BRO-NAMENT </h1>
-            <h2 class="hero-heading text-flicker-in-glow"> Tournaments between friends will never be the same </h2>
+            <h2 class="background-remove text-flicker-in-glow"> Tournaments between friends will never be the same </h2>
          </div>
       </section>
       <div class="container-fluid bro-container">
@@ -49,6 +48,7 @@
                Just head on over to the tournement page and begin! Lets find out just who is the rightful ruler of the fighting game genre! Show no mercy!
             </p>
          </section>
+       <!--How to use the site-->  
       </div>
       <div class="container-fluid">
          <h3> HOW THE SITE WORKS </h3>
@@ -66,31 +66,36 @@
             <dd>That's all there is to it! Time to train hard and go Pro</dd>
          </dl>
       </div>
+      <!--/How to use the site-->
       <div class="container-fluid">
+      <!-- Games to play. Game information uses Wikipedia API https://www.mediawiki.org/wiki/API:Main_page -->
          <h3> Games to Bro down </h3>
          <ul>
-            <li class="list-inline-item" id="street-list">
+            <li class="list-inline-item col-md-2" id="street-list">
                <h4><button class="btn btn-secondary" onclick="dataFill()">Street Fighter V</button></h4>
             </li>
-            <!--<dd  id="street-fighter"></dd>-->
-            <dt class="list-inline-item" id="tekken-list">
+            
+            <li class="list-inline-item col-md-3" id="tekken-list">
                <h4><button class="btn btn-secondary" onclick="dataFill2()">Tekken 7</button></h4>
-            </dt>
-            <!--<dd id="tekken"></dd>-->
-            <dt class="list-inline-item" id="smash-list">
+            </li>
+            
+            <li class="list-inline-item col-md-3" id="smash-list">
                <h4><button class="btn btn-secondary" onclick="dataFill3()">Smash Bros</button></h4>
-            </dt>
-            <!--<dd id="smash-bros" ></dd>-->
-            <dt class="list-inline-item" id="mk-list">
+            </li>
+            
+            <li class="list-inline-item col-md-3" id="mk-list">
                <h4><button class="btn btn-secondary" onclick="dataFill4()">Mortal Kombat</button></h4>
-            </dt>
-            <!--<dd id="mk"></dd>-->
+            </li>
+            
          </ul>
          <div class="container" id="street-fighter"></div>
          <div class="container" id="tekken"></div>
          <div class="container" id="smash-bros"></div>
          <div class="container" id="mk"></div>
       </div>
+      <!-- /Games to play -->
+
+      <!-- Tournament site for use-->
       <div class="container col-md-12">
          <h3>Looking to go solo?</h3>
          <p> Looking to take your game to another level? These sites are great ways to take on the world</p>
@@ -111,6 +116,7 @@
             </dd>
          </dl>
       </div>
+      <!-- /Tournament site for use-->
       <!-- Footer based on MDB https://mdbootstrap.com/docs/jquery/navigation/footer/-->
       <div class="container footer-container">
          <footer class="page-footer font-small special-color-dark pt-4">
