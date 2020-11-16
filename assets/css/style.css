@@ -349,19 +349,20 @@ h4 {
 
 a:link {
 	text-decoration: none;
+    color: #aba599;
 }
 
 a:visited {
-	background-color: none;
+	background-color: transparent;
 }
 
 a:hover {
 	text-decoration: none;
-	color: none;
+	color: #aba599;
 }
 
 a:active {
-	background-color: none;
+	background-color: transparent;
 }
 
 .background-remove {
