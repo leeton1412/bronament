@@ -528,3 +528,13 @@ a {
 		margin-top: 0px;
 	}
 }
+
+@media screen and (max-width: 320px) {
+    .bro-title {
+        font-size: 40px;
+    }
+
+    #start-button {
+        font-size: 25px;
+    }
+}
