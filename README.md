@@ -149,13 +149,17 @@ a desktop PC. It has also been tested on Ipad Pro, Samsung Galaxy s9, Iphone 11 
 
 # Jack Bailey
 
-Jack was asked to test the page and to feed back on any problems that she encountered or for any feed back she might have.
+Jack was asked to test the page and to feed back on any problems that she encountered or for any feed back he might have. Test was carried out on iphone 10 & a Acer Laptop
 - Problems Encountered 
     - Gallery page displayed a scroll bar on screens sized 414 x 736.
         - Issue was due to a container problem but has been changed.
+    - On mobile banner is very large when rotated.
+        - This issue has been changed.
+    - Back-ground of menu items on toggle makes it hard to read
+        - This is a valid point and is being changed
 
 - Feed Back. 
-    - Syntax Error with text on Contact Page
+    - Syntax Error with text on Index.html
         - Syntax wording did not match with flow of page.
         - The text has now been corrected. 
 
@@ -163,21 +167,23 @@ Jack was asked to test the page and to feed back on any problems that she encoun
 
 Ben was asked to test the page and to feed back on any problems that he encountered or for any feed back he might have. 
 - Problems Encountered 
-    - No problems encountered
-
-- Feed Back.
-    - Font color used for review section.
-        - Font color changed to make it more visable. 
+    - Index.html text would not fit on screens 750 and above
+        - Media Query has been added to change this
 
 # [Laura Sawyn](https://www.linkedin.com/in/laura-sawyn-628757178/)
 
 Laura was asked to give feedback of the layout of the page.
 - Feed Back.
-    - Layout on Meet the band page sizes 414 x 736 was not smooth.
-        - Layout has been changed to create a better user experience on mobiles.
-
-    - Header on Homepage leading to reviews didn't stand out enough.
-        - A black background has been added to the container to break the section up more. 
+    - Index.html text would not fit on screens 750 and above
+        - Media Query has been added to change this
+    - Facebook Link view takes to a personal page not a Group page
+        - Group page is being created to answer this problem 
+    - Linkedin Link is not working.
+        - This is an issue with LinkedIn and is being investigated
+    - Create an Alert for contact page to know it has been sent
+        - This has now been implemented.
+    - Spelling across the pages is incorrect
+        - This is being looked into and a full spellcheck is being carried out 
 
 
 
