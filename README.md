@@ -142,6 +142,42 @@ Technologies used in the making of this page are:
 - [Befunky](https://www.befunky.com/)
     - Used to resize all images on the website.
 
+### User Testing
+
+The site was tested by users and software. It has been tested on Google Chrome v83.0.4103.97 and Mozilla Firefox v77.0.1 (64) on Acer Ryzen 5 and also 
+a desktop PC. It has also been tested on Ipad Pro, Samsung Galaxy s9, Iphone 11 pro.
+
+# Jack Bailey
+
+Jack was asked to test the page and to feed back on any problems that she encountered or for any feed back she might have.
+- Problems Encountered 
+    - Gallery page displayed a scroll bar on screens sized 414 x 736.
+        - Issue was due to a container problem but has been changed.
+
+- Feed Back. 
+    - Syntax Error with text on Contact Page
+        - Syntax wording did not match with flow of page.
+        - The text has now been corrected. 
+
+# Ben Palmby
+
+Ben was asked to test the page and to feed back on any problems that he encountered or for any feed back he might have. 
+- Problems Encountered 
+    - No problems encountered
+
+- Feed Back.
+    - Font color used for review section.
+        - Font color changed to make it more visable. 
+
+# [Laura Sawyn](https://www.linkedin.com/in/laura-sawyn-628757178/)
+
+Laura was asked to give feedback of the layout of the page.
+- Feed Back.
+    - Layout on Meet the band page sizes 414 x 736 was not smooth.
+        - Layout has been changed to create a better user experience on mobiles.
+
+    - Header on Homepage leading to reviews didn't stand out enough.
+        - A black background has been added to the container to break the section up more. 
 
 
 
