@@ -11,6 +11,7 @@
    </head>
    <body>
       <header>
+      <!--Nav Bar based on codepen-->  
          <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark">
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="toggle-navigation">
@@ -27,26 +28,28 @@
                      <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="rules.html">Rules</a>
-                     </li>
                   </ul>
                </div>
             </nav>
          </div>
+        <!--/Nav Bar based on codepen-->   
       </header>
       <div class="container">
-         <h1 id="background-remove"> TIMES UP, LET'S DO THIS! </h1>
+      <!-- Intro to page-->
+         <h1 class="background-remove"> TIMES UP, LET'S DO THIS! </h1>
       </div>
       <div class="container">
          <p class="tournament-intro"> Please select the amount of players by pressing the button bellow</p>
          <p class="tournament-intro"> For small devices please <i class="fas fa-sync-alt rotate-center"></i> your device! </p>
       </div>
+      <!-- /Intro to page-->
+      <!-- Buttons to load players-->
       <div class="container">
          <div class="row"></div>
-         <input class="btn btn-primary two-players btn-select-2" type="button" value="2 Players" >
-         <input class="btn btn-primary four-players btn-select-4" type="button" value="4 Players">
-         <input class="btn btn-primary eight-players btn-select-8" type="button" value="8 Players">
+         <input class="btn btn-secondary two-players btn-select col-sm-2" type="button" value="2 Players" >
+         <input class="btn btn-secondary four-players btn-select col-sm-2" type="button" value="4 Players">
+         <input class="btn btn-secondary eight-players btn-select col-sm-2" type="button" value="8 Players">
+       <!-- /Buttons to load players-->  
       </div>
       <!-- Tournament set up-->
       <div class="container-fluid brackets" id="hiddenBracket">
@@ -115,6 +118,7 @@
                <input class="form-control round-1 player-input" id="player-8" type="text" placeholder="Player Name"><button class="btn btn-light btn-tournament" onclick="tournamentMove8()"><i class="fas fa-trophy"></i></button>
             </div>
          </div>
+       <!--/Tournament closes-->  
       </div>
       <!-- Footer based on MDB https://mdbootstrap.com/docs/jquery/navigation/footer/-->
       <div class="container footer-container">

@@ -483,15 +483,7 @@ nav {
 	padding-bottom: 25px;
 }
 
-.btn-select-2 {
-	margin-right: 20px;
-}
-
-.btn-select-4 {
-	margin-right: 20px;
-}
-
-.btn-select-8 {
+.btn-select {
 	margin-right: 20px;
 }
 
@@ -513,7 +505,7 @@ nav {
 .bracket-2,
 .bracket-4,
 .bracker-8 {
-	margin-top: 50px
+	margin-top: 50px;
 }
 
 .line-1 {
