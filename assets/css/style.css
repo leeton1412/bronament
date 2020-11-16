@@ -425,7 +425,8 @@ nav {
 
 
 .navbar-dark .navbar-nav .nav-link {
-	color: white;
+	color: #aba599;
+    
 }
 
 
@@ -538,4 +539,9 @@ a {
     #start-button {
         font-size: 25px;
     }
+}
+
+@media screen and (max-width: 991px){
+    .navbar-dark .navbar-nav {
+    background-color: black;
 }
