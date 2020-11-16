@@ -151,14 +151,14 @@ Technologies used in the making of this page are:
 
 Used to look for any potential problems.
 - Problems.
-    - Gallery did not contain any alt tags. This has been changed. 
-    - Event page contained h3 tag after a label tag and is not allowed. This has been changed. 
+    - Various syntax errors. All fixed
+    
 
 # [Am I Responsive?](http://ami.responsivedesign.is/)
 
 This website was used to check the layout on various screen sizes. 
 - Problems
-    - Gallery footer doesnt stick to page on screen size 768 x 1024.
+    - inde.html text doesnt fit to page on screen size 768 x 1024.
         - This problem has been fixed.
 
 ### Deployment
@@ -178,24 +178,22 @@ The process:
 
 ## Content 
 
-- All images from this website are obtained from [Cosmic Rodney Facebook page](https://en-gb.facebook.com/cosmicrodney/)
+- All images from this website are obtained from [Unsplash](https://unsplash.com/)
 
-- Band Bio information is personally composed by the band members. 
+- Game information is obtained via [WikipediaAPI](https://www.mediawiki.org/wiki/API:Main_page). 
 
-- Gallery Ekko lightbox is botained from [Ekko lightbox](https://ashleydw.github.io/lightbox/)
+- Nav bar basic structure obtained from [CodePen](https://codepen.io/ericagulto/full/KgdyqJ/).
 
-- Nav bar basic structure obtained from [CodePen](https://codepen.io/ericagulto/full/KgdyqJ/)
+- Footer basic structure obatined from [MDbootstrap](https://mdbootstrap.com/docs/jquery/navigation/footer/).
 
-- Hover affects obtained from [Hover.css](https://ianlunn.github.io/Hover/)
-
-- Event Calendar obtained from [Bootsnipp](https://bootsnipp.com/snippets/VgzeR)
+- Hover and Landing.html affects obtained from [Animista](https://animista.net/)
 
 ## Acknowledgments 
 
 - Thanks to Seun Owonikoko @seun_mentor
 - Stuart Crang For encouraging me to join the course
 - My current Linkedin Group for help and motivation. 
-- Cosmic Rodney for allowing me to build a site for them. 
+- Code institute Tutor support for their guidance.  
 - Code institute for providing me with the tools to chase my dreams
 
 
