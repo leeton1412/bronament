@@ -9,10 +9,10 @@ xhr.onload = function() {
     for (var i in data.query.pages) {
         console.log(data.query.pages[i].title);
 
-        document.getElementById('street-fighter').textContent = data.query.pages['19986238'].extract
-        document.getElementById('smash-bros').textContent = data.query.pages['1577869'].extract
-        document.getElementById('tekken').textContent = data.query.pages['43295977'].extract
-        document.getElementById('mk').textContent = data.query.pages['40775102'].extract
+        document.getElementById('street-fighter').textContent = data.query.pages['19986238'].extract;
+        document.getElementById('smash-bros').textContent = data.query.pages['1577869'].extract;
+        document.getElementById('tekken').textContent = data.query.pages['43295977'].extract;
+        document.getElementById('mk').textContent = data.query.pages['40775102'].extract;
 
     }
 

@@ -5,16 +5,16 @@ document.addEventListener('DOMContentLoaded', () => {
     let timeLeft = 10
 
     function countDown (){
-        const nine = new Audio('assets/sounds/9.mp3')
-        const eight = new Audio('assets/sounds/8.mp3')
-        const seven = new Audio('assets/sounds/7.mp3')
-        const six = new Audio('assets/sounds/6.mp3')
-        const five = new Audio('assets/sounds/5.mp3')
-        const four = new Audio('assets/sounds/4.mp3')
-        const three = new Audio('assets/sounds/3.mp3')
-        const two = new Audio('assets/sounds/2.mp3')
-        const one = new Audio('assets/sounds/1.mp3')
-        const zero = new Audio('assets/sounds/continue.wav')
+        const nine = new Audio('assets/sounds/9.mp3');
+        const eight = new Audio('assets/sounds/8.mp3');
+        const seven = new Audio('assets/sounds/7.mp3');
+        const six = new Audio('assets/sounds/6.mp3');
+        const five = new Audio('assets/sounds/5.mp3');
+        const four = new Audio('assets/sounds/4.mp3');
+        const three = new Audio('assets/sounds/3.mp3');
+        const two = new Audio('assets/sounds/2.mp3');
+        const one = new Audio('assets/sounds/1.mp3');
+        const zero = new Audio('assets/sounds/continue.wav');
 // Sounds for Count Down ---------------        
         setInterval(function(){
             if(timeLeft <= 0){
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     four.play();
                     break;
                 case 3:
-                    three.play()
+                    three.play();
                     break;
                 case 2:
                     two.play();
@@ -54,9 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
 
-            timeLeftDisplay.innerHTML = timeLeft
-            timeLeft -= 1
-        }, 1000)
+            timeLeftDisplay.innerHTML = timeLeft;
+            timeLeft -= 1;
+        }, 1000);
     
     }
     countDown();
