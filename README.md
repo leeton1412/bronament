@@ -1,4 +1,4 @@
-# Bro=nament a site for Gaming Tournaments
+# Bro-nament a site for Gaming Tournaments
 
 ![Responsive screen grab of homepage](assets/images/responsive-bronament.png)
 
@@ -149,7 +149,7 @@ a desktop PC. It has also been tested on Ipad Pro, Samsung Galaxy s9, Iphone 11 
 
 # Jack Bailey
 
-Jack was asked to test the page and to feed back on any problems that she encountered or for any feed back he might have. Test was carried out on iphone 10 & a Acer Laptop
+Jack was asked to test the page and to feed back on any problems that he encountered or for any feed back he might have. Test was carried out on iphone 10 & a Acer Laptop
 - Problems Encountered 
     - Gallery page displayed a scroll bar on screens sized 414 x 736.
         - Issue was due to a container problem but has been changed.
