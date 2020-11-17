@@ -514,9 +514,20 @@ ul {
 }
 
 
+/*-------------------- Contact Form ----------------------*/
+.background-color {
+    background-color: #363639;
+    padding-top: 20px;
+}
 
+.form-intro-text{
+    font-size: 20px;
+}
 
-
+.contact-intro-text{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
 /*-------------------- Footer Styling --------------------*/
 
 .social-button {
