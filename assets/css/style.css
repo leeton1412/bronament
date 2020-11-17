@@ -317,7 +317,7 @@ h3 {
 	color: #94929b;
 	padding-top: 25px;
 	padding-bottom: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 	font-family: 'Monoton', cursive;
 	background-color: #333238;
 	
@@ -443,6 +443,9 @@ nav {
 	display: none;
 }
 
+ul {
+    padding-left: 0px;
+}
 
 /*--  End Hover -- */
 
