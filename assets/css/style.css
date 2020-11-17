@@ -545,3 +545,9 @@ a {
     .navbar-dark .navbar-nav {
     background-color: black;
 }
+
+@media screen and (max-width: 991px){
+    .nav {
+        height: 80px;
+    }
+}
