@@ -21,80 +21,80 @@ $( ".eight-players" ).click(function() {
 function tournamentMove1(){
     var playersName = document.getElementById("player-1").value;
     document.getElementById("win-1").value = playersName;
-    console.log(playersName);;
+    alert("You win " + playersName + "!");
 }
 function tournamentMove2(){
     var playersName = document.getElementById("player-2").value;
     document.getElementById("win-1").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 function tournamentMove3(){
     var playersName = document.getElementById("player-3").value;
     document.getElementById("win-2").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 function tournamentMove4(){
     var playersName = document.getElementById("player-4").value;
     document.getElementById("win-2").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 function tournamentMove5(){
     var playersName = document.getElementById("player-5").value;
     document.getElementById("win-3").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 function tournamentMove6(){
     var playersName = document.getElementById("player-6").value;
     document.getElementById("win-3").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 function tournamentMove7(){
     var playersName = document.getElementById("player-7").value;
     document.getElementById("win-4").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 function tournamentMove8(){
     var playersName = document.getElementById("player-8").value;
     document.getElementById("win-4").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 function tournamentMove8(){
     var playersName = document.getElementById("player-8").value;
     document.getElementById("win-4").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 
 function tournamentMove12(){
     var playersName = document.getElementById("win-1").value;
     document.getElementById("final-1").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 function tournamentMove11(){
     var playersName = document.getElementById("win-2").value;
     document.getElementById("final-1").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 
 function tournamentMove9(){
     var playersName = document.getElementById("win-3").value;
     document.getElementById("final-2").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 
 function tournamentMove10(){
     var playersName = document.getElementById("win-4").value;
     document.getElementById("final-2").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 
 function finalmove(){
     var playersName = document.getElementById("final-1").value;
     document.getElementById("ultimate-champion").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
 
 function finalmove2(){
     var playersName = document.getElementById("final-2").value;
     document.getElementById("ultimate-champion").value = playersName;
-    console.log(playersName);
+    alert("You win " + playersName + "!");
 }
