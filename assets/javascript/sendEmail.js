@@ -6,16 +6,14 @@ function sendMail(contactForm){
         "suggestion_idea": contactForm.suggestion.value,
     })
     .then(
-        function(response){
-            console.log("SUCCESS", response);
+        function(){
             alert('Thank You')
             var form = document.getElementById("myForm")
             form.reset();    
         
         },
         
-        function(error){
-            console.log("ERROR", error);
+        function(){
             alert('Your email could not be sent at this time')
         }
     )
