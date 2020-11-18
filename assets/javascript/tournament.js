@@ -16,6 +16,14 @@ $( ".eight-players" ).click(function() {
     $(".bracket-2, .bracket-4, .bracket-8").show("slow");
 });
 
+// Add a Reset function for clearing all brackets
+function reset() {
+      var empty = document.getElementsByClassName('player-input');
+      for (var i = 0; i < empty.length; i++) {
+        empty[i].value = "";
+      }
+    }
+
 //We will now create a click function to move each name
 
 function tournamentMove1(){
