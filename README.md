@@ -260,6 +260,8 @@ The process:
 
 - Cors error corrected by using [Cors-anywhere](https://github.com/Rob--W/cors-anywhere/#documentation).
 
+- Sounds are obtained using [101SoundBoards](https://www.101soundboards.com/boards/10441-street-fighter-ii-sounds)
+
 ### Acknowledgments 
 
 - Thanks to Seun Owonikoko @seun_mentor.
