@@ -1,6 +1,6 @@
  // First we alert smaller screen users to rotate!
  if(window.innerHeight > window.innerWidth){
-    alert("Please Rotate to Bro-down!!");
+    alert("Please Rotate to Bro-Down!!");
  }
  //First we hid the tables
  $("#hiddenBracket").children('div').hide();
