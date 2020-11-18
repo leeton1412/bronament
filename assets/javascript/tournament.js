@@ -1,6 +1,6 @@
  // First we alert smaller screen users to rotate!
  if(window.innerHeight > window.innerWidth){
-    alert("Please use Landscape!");
+    alert("Please Rotate to Bro-down!!");
  }
  //First we hid the tables
  $("#hiddenBracket").children('div').hide();
