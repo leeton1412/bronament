@@ -1,9 +1,9 @@
-# Bro-nament a site for Gaming Tournaments
+# Bro-nament - A Site for Gaming Tournaments
 
 ![Responsive screen grab of homepage](assets/images/responsive-bronament.png)
 
-A website built to help friends combine their competitive nature and friendships *Bro-nament*. 
-The website will contain a javaScript based tournament system that can be used as a extra resourse when friends gather together.
+A website built to help people combine their friendships and competitive nature. 
+The website will contain a javaScript based tournament system that can be used as a extra resource when friends gather together.
 
 ## Ease of use
 
@@ -22,10 +22,10 @@ Onclick events will trigger the amount of brackets to generate. Players will the
 
 
 
-If the individual wins their match, clicking the icon next to their name will progress them through the brackets. It will alert() the winners name
+If the individual wins their match, clicking the icon next to their name will progress them through the brackets. It will alert() the winners name.
 - ![After load and win](assets/images/new-win.jpg)
 
-It can be used on all devices. But the site will alert() to state if screen needs rotating 
+It can be used on all devices, but the site will alert() to state if the screen needs rotating.
 
 Hosted on [GitHub Pages](https://leeton1412.github.io/bronament/)
 Repository on [GitHub.com](https://github.com/leeton1412/bronament)
@@ -36,11 +36,11 @@ Repository on [GitHub.com](https://github.com/leeton1412/bronament)
 
 ## UX
 
-#### Goals
+### Goals
 
 The aim of this website is to provide a quick, easy to use, and intuative system so friends can quickly build and play tournaments between each other
 
-#### Users
+### Users
 
 The predicted users of the site will be Friendship Groups, Tournament Organisers, Gaming Websites and Small Event Organisers.
 
@@ -49,7 +49,7 @@ The predicted users of the site will be Friendship Groups, Tournament Organisers
 2. Tournament Organisers looking to create a more simplictic approach.
 3. Tournament Organisers looking for a cheaper approach for smaller events.
 4. Gaming websites looking to create articles on Esports.
-5. A Small event Organiser looking to find a quick solution to a Esports competitive tournament setting.
+5. A Small event Organiser looking to find a quick solution to an Esports competitive tournament setting.
 6. Fans of Esports who wish to create their own brackets and predict player movement.
 
 ### Thoughts Behind The Design
@@ -75,7 +75,7 @@ Elements such as paragraphs are a complementing font and Bootstrap recommended:
 
 ### WireFrames 
 
-Here you can see screen shots of the Wire Frames. Due to time restrictions, there could of been more detail involved.
+Here you can see screen shots of the Wire Frames. Due to time restrictions, there could of been more detail involved such as added images.
 
 - ![WireFrame](assets/images/wire-frame-1.jpg) ![WireFrame](assets/images/wire-fram-2.jpg) ![WireFrame](assets/images/wire-frame-3.jpg) ![WireFrame](assets/images/wire-frame-4.jpg) 
 
@@ -116,11 +116,13 @@ Due to limitations with current personal working arrangements and Covid-19, the 
     - Register the amount of wins each player has
 - Brackets
     - Create a better design for the input forms. 
+    - Create a input field by using Javascript onclick to remove the need to hide brackets
     - Create a way to fill player names in randomly to ensure brackets are fair and random
     - Better design in javaScript to shorten code for other developers.
     - Auto fill names in player input bars using Toornament API
     - Find away to display brackets portrait on Mobile Phones
     - Link brackets together so people can see their progression clearly. 
+    - Support for more player sizes by including Bye Weeks. 
 
 
 
@@ -196,7 +198,7 @@ Ben was asked to test the page and to feed back on any problems that he encounte
 
 ### [Laura Sawyn](https://www.linkedin.com/in/laura-sawyn-628757178/)
 
-Laura was asked to give feedback of the layout of the page.
+Laura was asked to give feedback on the layout of the page.
 - Feed Back.
     - Index.html text would not fit on screens 750 and above.
         - Media Query has been added to change this.
@@ -261,11 +263,11 @@ The process:
 ### Acknowledgments 
 
 - Thanks to Seun Owonikoko @seun_mentor.
-- Stuart Crang For encouraging me to join the course.
-- Callum Jackson for helping with his PHP knowledge to understand how to build the brackets in Javascript.
-- Laura Sawyn for always supporting me through development 
-- My current Linkedin Group for help and motivation. 
-- Code institute Tutor support for their guidance. Always avaliable and always guiding.  
+- Stuart Crang for encouraging me to join the course.
+- Callum Jackson for sharing his PHP knowledge with me to help me understand how to build the brackets in Javascript.
+- Laura Sawyn for always supporting me through development. 
+- My current Linkedin Group for continued help and motivation. 
+- Code institute tutor support for always being available and willingness to support.  
 - Code institute for providing me with the tools to chase my dreams. 
 
 
