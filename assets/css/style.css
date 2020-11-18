@@ -517,6 +517,9 @@ ul {
 	margin-top: 45px;
 }
 
+.two-players, .four-players, .eight-players{
+    margin-bottom: 5px;
+}
 
 /*-------------------- Contact Form ----------------------*/
 .background-color {
@@ -532,6 +535,7 @@ ul {
     margin-bottom: 30px;
     font-size: 25px;
 }
+
 /*-------------------- Footer Styling --------------------*/
 
 .social-button {
