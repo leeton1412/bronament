@@ -1,3 +1,7 @@
+ // First we alert smaller screen users to rotate!
+ if(window.innerHeight > window.innerWidth){
+    alert("Please use Landscape!");
+ }
  //First we hid the tables
  $("#hiddenBracket").children('div').hide();
 //Then we create a onclick event to create the right amount of fields
