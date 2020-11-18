@@ -95,6 +95,7 @@ Here you can see screen shots of the Wire Frames. Due to time restrictions, ther
 - Buttons to hide Wikipedia information so its not displayed on call. 
 - Easy use of "button move" to provide clean client side experience.
 - Countdown intro page using original Street fighter 2 sounds.
+- Auto load on completion of Countdown.
 - Live contact form using [Emailjs](https://www.emailjs.com).
 - Social Media buttons to create more contact points .
 - Extra content buttons.
@@ -123,7 +124,8 @@ Due to limitations with current personal working arrangements and Covid-19, the 
     - Find away to display brackets portrait on Mobile Phones
     - Link brackets together so people can see their progression clearly. 
     - Support for more player sizes by including Bye Weeks. 
-
+- Countdown
+    - Find a way to play sounds without user permission. Sounds will only currently play if allowed in settings.
 
 
 
